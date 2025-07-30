@@ -2,6 +2,8 @@
 
 A nostalgic 90's arcade-style space shooter game built with HTML5 Canvas and JavaScript. Defend your ship from incoming asteroids in this classic arcade experience!
 
+🎮 **[Play it live here!](https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/)** _(Update this link after deployment)_
+
 ## 🎮 How to Play
 
 - **Arrow Keys**: Move your spaceship (up, down, left, right)

@@ -1,0 +1,36 @@
+DEPLOYMENT INSTRUCTIONS FOR GITHUB PAGES
+========================================
+
+1. Create a new repository on GitHub:
+   - Go to: https://github.com/new
+   - Repository name: space-shooter-95 (or your preferred name)
+   - Make it PUBLIC
+   - DON'T initialize with README
+
+2. After creating the repo, run these commands in PowerShell:
+   (Replace YOUR-USERNAME with your GitHub username and YOUR-REPO-NAME with your repo name)
+
+   git branch -M main
+   git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
+   git push -u origin main
+
+3. Enable GitHub Pages:
+   - Go to your repository on GitHub
+   - Click "Settings" tab
+   - Scroll down to "Pages" section (left sidebar)
+   - Under "Source", select "Deploy from a branch"
+   - Under "Branch", select "main" and "/ (root)"
+   - Click "Save"
+
+4. Your game will be live at:
+   https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/
+
+   Note: It may take 2-5 minutes for the site to become available.
+
+5. Update README.md with your live link:
+   - Edit line 3 to add: [Play it live here!](https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/)
+
+Example commands for user "johndoe" with repo "space-shooter-95":
+   git branch -M main
+   git remote add origin https://github.com/johndoe/space-shooter-95.git
+   git push -u origin main 
