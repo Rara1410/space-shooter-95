@@ -2,7 +2,7 @@
 
 A nostalgic 90's arcade-style space shooter game built with HTML5 Canvas and JavaScript. Defend your ship from incoming asteroids in this classic arcade experience!
 
-🎮 **[Play it live here!](https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/)** _(Update this link after deployment)_
+🎮 **[Play it live here!](https://Rara1410.github.io/space-shooter-95/)** _(Live once GitHub Pages is enabled)_
 
 ## 🎮 How to Play
 
