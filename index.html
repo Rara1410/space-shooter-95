@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Space Shooter '95</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header">
+            <h1>SPACE SHOOTER '95</h1>
+            <div class="stats">
+                <div class="score">SCORE: <span id="score">0</span></div>
+                <div class="lives">LIVES: <span id="lives">3</span></div>
+                <div class="high-score">HI-SCORE: <span id="highScore">0</span></div>
+            </div>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+        <div class="game-footer">
+            <p>ARROW KEYS TO MOVE • SPACE TO FIRE</p>
+            <p id="gameStatus">PRESS ENTER TO START</p>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html> 
